@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "@next/next/no-html-link-for-pages": "off",
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "import/order": [
+      "warn",
+      {
+        "alphabetize": { "order": "asc", "caseInsensitive": true },
+        "newlines-between": "always"
+      }
+    ]
+  }
+}
